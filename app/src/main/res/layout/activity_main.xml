@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="ustory.com.circleview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ustory.com.circleview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:avtv_fit_text_length="2"
+            app:avtv_random_fill_color="true"
+            app:avtv_text="text3"
+            app:avtv_text_size="40sp"/>
+        <ustory.com.circleview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:avtv_fit_text_length="5"
+            app:avtv_random_fill_color="true"
+            app:avtv_text="text3"
+            app:avtv_border_overlay="true"
+            app:avtv_border_color="#c71010"
+            app:avtv_border_width="2dp"
+            app:avtv_text_size="40sp"/>
+        <ustory.com.circleview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            app:avtv_fit_text_length="5"
+            app:avtv_random_fill_color="true"
+
+            app:avtv_border_overlay="true"
+            app:avtv_border_color="#c71010"
+            app:avtv_border_width="2dp"
+            android:src="@mipmap/ic_launcher"
+            app:avtv_text_size="40sp"/>
+    </LinearLayout>
+
+</RelativeLayout>
